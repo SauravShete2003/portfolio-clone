@@ -3,7 +3,7 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="flex items-center justify-between px-6 py-6 bg-white shadow">
+<div className="flex items-center justify-between px-6 py-6 bg-white shadow w-full">
       <div className="text-4xl font-bold text-black">Portfolio</div>
       <div className="flex justify-around ml-5">
         <Laptop 
