@@ -1,25 +1,17 @@
 import React from "react";
+import Navabar from "../components/Navabar";
 
 const Portfolio = () => {
   return (
     <div className="bg-gray-100 min-h-screen">
       <header className="flex justify-between items-center px-8 py-2">
         <div className="flex items-center space-x-2">
-          <div className="w-4 h-4 rounded-full bg-yellow-500"></div>
+          <div className="w-4 h-4 rounded-full bg-yellow-500">
+          </div>
           <h1 className="text-2xl font-bold">Saurav Shete</h1>
           <span className="text-gray-500">Editor</span>
         </div>
-        <nav className="space-x-6">
-          <a href="#resume" className="text-gray-800 hover:text-blue-500 text-xl">
-            Resume
-          </a>
-          <a href="#projects" className="text-gray-800 hover:text-blue-500 text-xl">
-            Projects
-          </a>
-          <a href="#contact" className="text-gray-800 hover:text-blue-500 text-xl">
-            Contact
-          </a>
-        </nav>
+        <Navabar/>
       </header>
 
       <main className="flex flex-col lg:flex-row justify-center items-center lg:space-x-12 py-10 px-4 mt-12">

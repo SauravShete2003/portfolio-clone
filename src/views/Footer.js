@@ -41,15 +41,9 @@ function Footer() {
             </a>
           </div>
         </div>
-
-        <div>
-          <h3 className="text-xl font-bold">Address</h3>
-          <p className="text-gray-700 text-lg font-bold">Katraj, Pune</p>
-        </div>
+        <div className="mt-6 text-center text-sm text-gray-600">
+        © 2025 By Saurav Shete. <br/> Powered and secured by React.
       </div>
-
-      <div className="mt-6 text-center text-sm text-gray-600">
-        © 2025 By Saurav Shete. Powered and secured by React.
       </div>
     </div>
   );
