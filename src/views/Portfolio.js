@@ -33,19 +33,19 @@ const Portfolio = () => {
 
           <div className="flex space-x-6 mt-8 justify-center lg:justify-start">
             <a
-              href="#resume"
+              href="/resume"
               className="bg-gradient-to-r from-yellow-400 to-yellow-600 text-white font-semibold py-3 px-6 rounded-full shadow-lg transform transition-transform duration-300 hover:scale-105 hover:from-yellow-500 hover:to-yellow-700 text-lg"
             >
               Resume
             </a>
             <a
-              href="#projects"
+              href="/projects"
               className="bg-gradient-to-r from-red-400 to-red-600 text-white font-semibold py-3 px-6 rounded-full shadow-lg transform transition-transform duration-300 hover:scale-105 hover:from-red-500 hover:to-red-700 text-lg"
             >
               Projects
             </a>
             <a
-              href="#contact"
+              href="/contact"
               className="bg-gradient-to-r from-blue-400 to-blue-600 text-white font-semibold py-3 px-6 rounded-full shadow-lg transform transition-transform duration-300 hover:scale-105 hover:from-blue-500 hover:to-blue-700 text-lg"
             >
               Contact

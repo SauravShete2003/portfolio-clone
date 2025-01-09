@@ -19,7 +19,7 @@ function Header() {
           Click edit and create your own amazing website
         </span>
         <a
-          href="#"
+          href="/"
           className="text-xl font-medium text-blue-600 underline hover:no-underline"
         >
           Read More
