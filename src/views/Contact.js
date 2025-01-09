@@ -62,7 +62,7 @@ export default function Contact() {
                   value={formData.firstName}
                   onChange={handleChange}
                   required
-                  className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
+                  className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:blue-600"
                 />
               </div>
 
@@ -76,7 +76,7 @@ export default function Contact() {
                   value={formData.lastName}
                   onChange={handleChange}
                   required
-                  className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
+                  className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:blue-600"
                 />
               </div>
             </div>
@@ -93,7 +93,7 @@ export default function Contact() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
+                  className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:blue-600"
                 />
               </div>
 
@@ -106,7 +106,7 @@ export default function Contact() {
                   name="subject"
                   value={formData.subject}
                   onChange={handleChange}
-                  className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
+                  className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:blue-600"
                 />
               </div>
             </div>
@@ -121,13 +121,13 @@ export default function Contact() {
                 value={formData.message}
                 onChange={handleChange}
                 rows={4}
-                className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
+                className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:blue-600"
               />
             </div>
 
             <button
               type="submit"
-              className="w-full bg-orange-500 hover:bg-orange-600 text-white py-3 rounded-full transition duration-200"
+              className="w-full mt-6 bg-blue-500 text-white py-2 px-6 rounded-full font-semibold text-lg shadow-md hover:bg-blue-600 focus:outline-none transition duration-300 self-start"
             >
               Submit
             </button>
