@@ -3,19 +3,15 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import About from './views/About';
 import Resume from "./views/Resume";
 import Projects from "./views/Projects";
+import Contact from "./views/Contact";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-  },
-  {
-    path: "/about",
-    element: <About />,
   },
 
   {
@@ -25,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/projects",
     element: <Projects />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
   },
   {
     path: "*",
