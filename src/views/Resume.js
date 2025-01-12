@@ -1,12 +1,12 @@
 import React from 'react'
 import Footer from './Footer'
-import Navabar from '../components/Navabar'
+import Navbar from '../components/Navbar'
 
 function Resume() {
   return (
 
         <div>
-            <Navabar/>
+            <Navbar/>
         <div className="bg-gray-100 text-gray-800 font-sans">
       {/* Header Section */}
       <header className="bg-blue-500 text-white py-10">

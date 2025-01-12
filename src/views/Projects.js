@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "./Footer";
-import Navabar from "../components/Navabar";
+import Navbar from "../components/Navbar";
 
 const Projects = () => {
   const projectData = [
@@ -30,7 +30,7 @@ const Projects = () => {
   return (
     <div className="bg-gray-50 min-h-screen">
       {/* Navbar */}
-      <Navabar />
+      <Navbar />
 
       {/* Projects Section */}
       <div className="py-12">
