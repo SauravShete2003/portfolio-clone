@@ -1,6 +1,5 @@
 import Navbar from "../components/Navbar";
 import { motion } from "framer-motion";
-import Footer from "./Footer";
 
 function Portfolio() {
   return (
@@ -23,7 +22,7 @@ function Portfolio() {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="rounded-full w-64 h-64 overflow-hidden shadow-lg border-4 border-white"
+          className="rounded-full w-80 h-80 overflow-hidden shadow-lg border-4 border-white"
         >
           <img
             src="https://img.freepik.com/premium-vector/beard-man-avatar_96853-399.jpg"
